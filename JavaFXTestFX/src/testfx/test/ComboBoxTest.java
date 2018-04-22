@@ -59,15 +59,8 @@ public class ComboBoxTest extends GuiTest {
 		type(KeyCode.DOWN);
 		sleep(2, TimeUnit.SECONDS);
 		type(KeyCode.ENTER);
-		
-	
+			
 		verifyThat("#txtLabel", hasText("Londres"));
-
-		
-		//verifyThat("#lblFeedback", hasText("A senha informada não confere."));
-		//verifyThat(numberOfRowsIn(tableView), is(3));
-		//Assert.assertTrue(string.contains(teste));
-		//assertNodeExists( "#user-picture" );
 	}
 
 
