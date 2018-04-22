@@ -62,6 +62,8 @@ public class ComboBoxTest extends GuiTest {
 		
 	
 		verifyThat("#txtLabel", hasText("C++ how to program"));
+
+		
 	}
 
 
