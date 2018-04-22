@@ -1,8 +1,11 @@
 package testfx.test;
 
-import static org.hamcrest.Matchers.equalTo;
+
 import static  org.loadui.testfx.Assertions.verifyThat;
+import static org.loadui.testfx.controls.Commons.hasText;
 import static org.loadui.testfx.controls.TableViews.numberOfRowsIn;
+import static org.hamcrest.Matchers.equalTo; 
+import static org.hamcrest.Matchers.greaterThan; 
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;

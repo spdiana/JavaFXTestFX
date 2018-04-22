@@ -54,8 +54,8 @@ public class TableTest extends GuiTest {
 		
 	
 		TableView<?> tv = (TableView<?>)find("#tableView");
-		waitUntil(tv, TableViews.containsCell("P1"));
-		Assertions.verifyThat("#tableView", TableViews.containsCell("P1"));
+		waitUntil(tv, TableViews.containsCell("C++ for Dumnies"));
+		Assertions.verifyThat("#tableView", TableViews.containsCell("C++ for Dumnies"));
 		
 	}
 
